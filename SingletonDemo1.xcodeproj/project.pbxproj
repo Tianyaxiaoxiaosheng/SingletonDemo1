@@ -15,6 +15,7 @@
 		F0A4D5121E8B84E200CDDB0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A4D5101E8B84E200CDDB0C /* LaunchScreen.storyboard */; };
 		F0A4D51D1E8B84E200CDDB0C /* SingletonDemo1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4D51C1E8B84E200CDDB0C /* SingletonDemo1Tests.m */; };
 		F0A4D5281E8B84E200CDDB0C /* SingletonDemo1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4D5271E8B84E200CDDB0C /* SingletonDemo1UITests.m */; };
+		F0A4D5371E8B856500CDDB0C /* MitchellTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A4D5361E8B856500CDDB0C /* MitchellTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F0A4D5231E8B84E200CDDB0C /* SingletonDemo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonDemo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A4D5271E8B84E200CDDB0C /* SingletonDemo1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonDemo1UITests.m; sourceTree = "<group>"; };
 		F0A4D5291E8B84E200CDDB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A4D5351E8B856500CDDB0C /* MitchellTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MitchellTool.h; sourceTree = "<group>"; };
+		F0A4D5361E8B856500CDDB0C /* MitchellTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MitchellTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F0A4D5061E8B84E200CDDB0C /* AppDelegate.m */,
 				F0A4D5081E8B84E200CDDB0C /* ViewController.h */,
 				F0A4D5091E8B84E200CDDB0C /* ViewController.m */,
+				F0A4D5351E8B856500CDDB0C /* MitchellTool.h */,
+				F0A4D5361E8B856500CDDB0C /* MitchellTool.m */,
 				F0A4D50B1E8B84E200CDDB0C /* Main.storyboard */,
 				F0A4D50E1E8B84E200CDDB0C /* Assets.xcassets */,
 				F0A4D5101E8B84E200CDDB0C /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0A4D50A1E8B84E200CDDB0C /* ViewController.m in Sources */,
+				F0A4D5371E8B856500CDDB0C /* MitchellTool.m in Sources */,
 				F0A4D5071E8B84E200CDDB0C /* AppDelegate.m in Sources */,
 				F0A4D5041E8B84E200CDDB0C /* main.m in Sources */,
 			);
